@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+    background-size: cover;
+}
+
+body {
+    background-image: url("images/breno-machado-in9-n0JwgZ0-unsplash.jpg");
+}
+
+.card {
+    /* background: linear-gradient(135deg, #00feba, #5b538a); */
+    background-color: black;
+    opacity: 0.8;
+    width: 90%;
+    max-width: 500px;
+
+    text-align: center;
+    padding: 45px 35px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+}
+
+.search {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    width: 360px;
+    border: 0;
+    outline: 0;
+    text-align: left;
+    background: #ebfffc;
+    color: #555;
+    height: 60px;
+    padding-left: 20px;
+    /* padding: 10 25px; */
+    border-radius: 30px;
+    flex: 1;
+    font-size: 18px;
+    margin-right: 16px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+
+}
+
+.search button i {
+    font-size: 20px;
+}
+
+.weather {
+    color: white;
+
+}
+
+.weather-icon {
+    height: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 110px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+
+
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity,
+.wind {
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+
+.avtar {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+    background-color: red;
+}
+
+.card2 {
+    background-color: black;
+    opacity: 0.8;
+    width: 90%;
+    max-width: 500px;
+    color: #ebfffc;
+    display: flex;
+    text-align: center;
+    padding: 20px 35px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+}
+
+.name {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
